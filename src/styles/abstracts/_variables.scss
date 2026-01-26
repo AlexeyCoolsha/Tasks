@@ -16,9 +16,20 @@ $color-accent-secondary: #1fcecb !default;
 $background-color: #ffffff !default;
 $color-light-gray: #ebebeb !default;
 
+$color-yellow: #FFF685;
+$color-light-lilac: #CBB5FF;
+
 $image-body-background: url('/src/assets/images/background.gif');
 
 $border: 5px solid #000000;
+
+$spacing-small: 12px !default;
+$spacing-medium: 24px !default;
+$spacing-large: 52px !default;
+
+$shadow-default: 0 4px 6px rgba(0, 0, 0, 0.1) !default;
+
+
 
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length

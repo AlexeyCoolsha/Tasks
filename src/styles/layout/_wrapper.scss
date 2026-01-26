@@ -1,0 +1,7 @@
+@use '../abstracts/' as abs;
+
+.wrapper {
+  padding-left: abs.$spacing-large;
+  padding-right: abs.$spacing-large;
+  margin: 0 auto;
+}

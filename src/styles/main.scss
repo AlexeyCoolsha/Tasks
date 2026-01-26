@@ -17,11 +17,13 @@
 @use 'layout/body';
 @use 'layout/main';
 @use 'layout/navigation';
+@use 'layout/wrapper';
 
 // 4. Components
 @use 'components/button';
 @use 'components/heading';
 @use 'components/LogoBox';
+@use 'components/block';
 
 // 5. Pages
 @use 'pages/home';
