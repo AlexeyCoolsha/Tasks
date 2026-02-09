@@ -1,6 +1,7 @@
 @use '../abstracts/' as abs;
 
 .offset-title {
+  display: inline-block;
   position: relative;
   left: 0;
   z-index: 1;
@@ -9,9 +10,7 @@
     text-transform: uppercase;
   }
   &__main {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     z-index: 2;
   }
   &__substrate {

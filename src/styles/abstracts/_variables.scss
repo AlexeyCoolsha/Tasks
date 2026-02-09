@@ -3,6 +3,8 @@
 $text-font-stack:
   'Space Grotesk', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
+$text-font-stack-secondary: 'Syne', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
 /// Code (monospace) font family
 /// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
@@ -13,6 +15,7 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 $transparent-color: rgba(0, 0, 0, 0) !default;
 $text-color: #000000 !default;
+$text-color-secondary: #FFF685 !default;
 $color-accent: #fe007f !default;
 $color-accent-secondary: #1fcecb !default;
 $background-color: #ffffff !default;

@@ -1,0 +1,13 @@
+@use '../abstracts/' as abs;
+
+.label {
+  &__text {
+    font-family: abs.$text-font-stack-secondary;
+    font-size: 50px;
+    font-weight: 700;
+    color: abs.$text-color-secondary;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
