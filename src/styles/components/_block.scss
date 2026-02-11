@@ -19,6 +19,7 @@
       left: -6px;
     }
     &-left {
+      position: relative;
       background-color: abs.$left-hero-block;
       width: 100%;
       max-width: 854px;

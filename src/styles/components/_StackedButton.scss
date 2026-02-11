@@ -1,0 +1,21 @@
+@use '../abstracts/' as abs;
+@use 'sass:color';
+
+.stacked-button {
+  position: absolute;
+  z-index: 2;
+  padding: 22px;
+  padding-right: 68px;
+  padding-left: 26px;
+  bottom: 119px;
+  right: -257px;
+  background-color: abs.$color-orange;
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  &:hover {
+    background-color: color.scale(abs.$color-orange, $lightness: 10%);
+  }
+}

@@ -10,7 +10,6 @@ $text-font-stack-secondary:
 /// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
-
 /// Colors
 
 $transparent-color: rgba(0, 0, 0, 0) !default;
@@ -20,8 +19,9 @@ $color-accent: #fe007f !default;
 $color-accent-secondary: #1fcecb !default;
 $background-color: #ffffff !default;
 $color-light-gray: #ebebeb !default;
-$color-yellow: #FFF685 !default;
+$color-yellow: #fff685 !default;
 $color-bright-lilac: #cbb5ff !default;
+$color-orange: #FF7043 !default;
 
 // Stacked block
 
