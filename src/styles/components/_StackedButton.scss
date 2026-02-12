@@ -47,10 +47,10 @@
       background-color: color.scale(abs.$color-orange, $lightness: 5%);
     }
     & .stacked-button__layer {
-      transform: translate(8px, 7px);
+      transform: translate(9px, 7px);
     }
     & .stacked-button__icon {
-      animation: icon-pop 0.3s ease-out 1;
+      animation: icon-bump 0.3s ease-out 1;
     }
   }
   &:active {
