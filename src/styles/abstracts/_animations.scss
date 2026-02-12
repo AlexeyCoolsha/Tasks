@@ -1,0 +1,11 @@
+@keyframes icon-pop {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(5px, 3px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
